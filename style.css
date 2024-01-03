@@ -3,10 +3,10 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    /* display: flex;
-    flex-direction: column; */
-}
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
 
 .header {
     background-color: #1f2937;
@@ -53,6 +53,7 @@ a {
     align-items:first baseline;
     height: 400px;
     width: 400px;
+    flex-shrink: 0;
 }
 
 
@@ -77,6 +78,50 @@ button.sign-up {
     border-radius: 10px;
 }
 
-.hero-image {
-    
+.hero-image img {
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.container.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 100;
+    padding: 50px;
+
+}
+
+.container.two h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.image-container p {
+    text-align: center;
+}
+
+.image {
+    border: 1px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
 }
